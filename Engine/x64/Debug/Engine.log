@@ -1,0 +1,8 @@
+﻿  Render.cpp
+C:\NU\C++2\Engine\Engine\Source\Render.cpp(69,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\NU\C++2\Engine\Engine\Source\Render.cpp(69,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\NU\C++2\Engine\Engine\Source\Render.cpp(69,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\NU\C++2\Engine\Engine\Source\Render.cpp(69,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\NU\C++2\Engine\Engine\Source\Render.cpp(79,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\NU\C++2\Engine\Engine\Source\Render.cpp(79,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Engine.vcxproj -> C:\NU\C++2\Engine\x64\Debug\Engine.lib

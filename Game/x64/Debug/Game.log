@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\NU\C++2\Engine\Engine\Source\Vector2.h(19,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\NU\C++2\Engine\Engine\Source\Vector2.h(20,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Game.vcxproj -> C:\NU\C++2\Engine\x64\Debug\Game.exe
