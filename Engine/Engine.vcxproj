@@ -19,11 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Input.h" />
     <ClInclude Include="Source\Renderer.h" />
     <ClInclude Include="Source\Vector2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Render.cpp" />
+    <ClCompile Include="Source\E_Time.cpp" />
+    <ClCompile Include="Source\Input.cpp" />
+    <ClCompile Include="Source\Particle.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
