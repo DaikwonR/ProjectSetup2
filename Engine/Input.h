@@ -18,7 +18,7 @@ public:
     void Update();
 
     bool GetKeyDown(uint8_t key) { return m_keyState[key]; }
-    bool GetKeyHeld(uint8_t key) { return m_prevKeyState[key]; }
+    bool GetPrevKeyDown(uint8_t key) { return m_prevKeyState[key]; }
 
 
     Vector2 GetMousePos() { return m_mousePos; }

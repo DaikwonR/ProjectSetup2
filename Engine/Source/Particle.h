@@ -8,13 +8,19 @@ using namespace std;
 struct Particle {
     Vector2 position{ 0,0 };
     Vector2 velocity{ 0,0 };
-    float lifespan = 1'000;
+    float lifespan = 0;
 
     Particle() = default;
-    Particle(Vector2 postion, Vector2 velocity) :
+    Particle(Vector2 position, Vector2 velocity) :
         position{ position },
         velocity{ velocity }
     {}
+    Particle(Vector2 position, Vector2 velocity, float lifespan) :
+        position{ position },
+        velocity{ velocity },
+        lifespan{ lifespan }
+    {}
+
     void Update(float dt);
     void Draw(Renderer renderer);
     Vector2 getPosition(){ return position; }
