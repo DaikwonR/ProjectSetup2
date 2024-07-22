@@ -13,7 +13,7 @@ struct Color
 	Color() = default;
 	Color(float r, float g, float b, float a = 0)
 	{
-		this->r = r; this->g = g; this->b; this->a = a;
+		this->r = r; this->g = g; this->b = b; this->a = a;
 	}
 
 	float  operator [] (unsigned int index) const { return (&r)[index]; }
@@ -39,6 +39,6 @@ struct Color
 	//Color& operator *= (float s) { x *= s; y *= s; return *this; }
 	//Color& operator /= (float s) { x /= s; y /= s; return *this; }
 
-	static uint8_t ToInt(float value) { return static_cast<uint8_t>(Math::Clamp(value, 0.0f, 1.0f * 255)); }
+	static uint8_t ToInt(float value) { return static_cast<uint8_t>(Math::Clamp(value, 0.0f, 1.0f) * 255); }
 
 };
