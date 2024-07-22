@@ -18,6 +18,8 @@ public:
 	void Draw(Renderer& renderer, const Vector2& position, float angle, float scale);
 	void Draw(Renderer& renderer, const Transform& transform);
 
+	float GetRadius();
+
 private:
 	vector<Vector2> m_points;
 	Color m_color;

@@ -1,121 +1,108 @@
-#include <SDL.h>
+#include "Engine.h"
+#include "Player.h"
+#include "Actor.h"
+#include "Enemy.h"
+#include "GameData.h"
+#include "SpaceGame.h"
+#include "Font.h"
+#include "Text.h"
+
 #include <iostream>
 #include <cstdlib>
 #include <vector>
 #include <ctime>
-#include <fmod.hpp>
 
-#include "Vector2.h"
-#include "Renderer.h"
-#include "Input.h"
-#include "Particle.h"
-#include "E_Time.h"
-#include "MathUtils.h"
-#include "Random.h"
-#include "Transform.h"
-#include "Model.h"
-#include "Color.h"
+
+
 
 using namespace std;
 
 int main(int argc, char* argv[])
 {
-	// create systems
-	Renderer renderer;
-	renderer.Initialize();
-	renderer.CreateWindow("Game Engine", 800, 600);
+	g_engine.Initialize();
 
-	Input input;
-	input.Initialize();
+	SpaceGame* game = new SpaceGame(&g_engine);
+	game->Initialize();
 
-	Time time;
+	Font* font = new Font();
+	font->Load("youmurdererbb_reg.ttf", 20);
+
+	Text* text = new Text(font);
+	text->Create(g_engine.GetRenderer(), "Hello World", Color{ 1, 1, 1, 1 });
+
+	while (!g_engine.IsQuit())
+	{
+		g_engine.Update();
+		game->Update(g_engine.GetTime().GetDeltaTime());
+
+		g_engine.GetRenderer().SetColor(0, 0, 0, 0);
+		g_engine.GetRenderer().BeginFrame();
+
+		game->Draw(g_engine.GetRenderer());
+		text->Draw(g_engine.GetRenderer(), 40, 40);
+
+		g_engine.GetRenderer().EndFrame();
+
+		
+	}
+
+	return 0;
+}
+/*
 
 	// create audio system
-	FMOD::System* audio;
-	FMOD::System_Create(&audio);
-
-	void* extradriverdata = nullptr;
-	audio->init(32, FMOD_INIT_NORMAL, extradriverdata);
-
-
-	FMOD::Sound* sound = nullptr;
-	audio->createSound("test.wav", FMOD_DEFAULT, 0, &sound);
-	//audio->playSound(sound, 0, false, nullptr);
 
 	std::vector<FMOD::Sound*> sounds;
-	audio->createSound("bass.wav", FMOD_DEFAULT, 0, &sound);
-	sounds.push_back(sound);
 
-	audio->createSound("snare.wav", FMOD_DEFAULT, 0, &sound);
-	sounds.push_back(sound);
+	AUDIO.AddSound("bass.wav");
+	AUDIO.AddSound("snare.wav");
+	AUDIO.AddSound("close-hat.wav");
+	AUDIO.AddSound("open-hat.wav");
+	AUDIO.AddSound("clap.wav");
+	AUDIO.AddSound("cowbell.wav");
 
-	audio->createSound("close-hat.wav", FMOD_DEFAULT, 0, &sound);
-	sounds.push_back(sound);
-
-	audio->createSound("open-hat.wav", FMOD_DEFAULT, 0, &sound);
-	sounds.push_back(sound);
-
-	audio->createSound("clap.wav", FMOD_DEFAULT, 0, &sound);
-	sounds.push_back(sound);
-
-	audio->createSound("cowbell.wav", FMOD_DEFAULT, 0, &sound);
-	sounds.push_back(sound);
 
 	std::vector<Particle> particles;
-	float offset = 5;
-
-
-	std::vector<Vector2> points;
-	points.push_back(Vector2{ 5, 0 });
-	points.push_back(Vector2{ -20, -20 });
-	points.push_back(Vector2{ -5, 25 });
-	points.push_back(Vector2{ 5, 0 });
+	float offset = 0;
 	
-	points.push_back(Vector2{ 0, 5 });
-	points.push_back(Vector2{ 25, 5 });
-	points.push_back(Vector2{ -20, -20 });
-	points.push_back(Vector2{ 0, 5 });
 
-	Model model{ points, Color{ 100, 0, 0 } };
-	Transform transform{ { renderer.GetWidth() >> 1, renderer.GetHeight() >> 1 }, 0, 5 };
+	// make player 
+	Model* model = new Model{ GameData::shipPoints, Color{ 100, 0, 0 } };
+	Scene* scene = new Scene();
 
-	// 0001 = 1
-	// 0010 = 2
-	// 0100 = 4
-	// 1000 = 8
-	// >> 1
+	Transform transform{ Vector2{ randomf(0, 800), randomf(0, 600)}, 0, randomf(1, 5) };
+	Player* player = new Player(randomf(100, 100), transform, model);
+	player->SetDamping(2.3f);
+	player->SetTag("Player");
+	scene->AddActor(player);
+
+	auto* enemyModel = new Model{ GameData::shipPoints, Color{ 100, 230, 50 } };
+	auto* enemy = new Enemy(110, Transform{ {g_engine.GetRenderer().GetWidth(), 10}, 0, 2}, enemyModel);
+	enemy->SetDamping(1.0f);
+	enemy->SetTag("Enemy");
+	scene->AddActor(enemy);
+
+	float spawnTimer = 2;
 
 	// main loop
-	bool quit = false;
-	while (!quit)
+	while (!g_engine.IsQuit())
 	{
-		time.Tick();
+		g_engine.Update();
 
-		// INPUT
-		input.Update();
-		if (input.GetKeyDown(SDL_SCANCODE_ESCAPE))
+		/*spawnTimer -= dt;
+		if ()
 		{
-			quit = true;
+			scene->AddActor(enemy);
 		}
-
-		float thrust = 0;
-		if (input.GetKeyDown(SDL_SCANCODE_UP))		thrust = -51;
-		if (input.GetKeyDown(SDL_SCANCODE_DOWN))	thrust = -51;
-
-		if (input.GetKeyDown(SDL_SCANCODE_LEFT))	transform.rotation -= Math::DegToRad(100) * time.GetDeltaTime();
-		if (input.GetKeyDown(SDL_SCANCODE_RIGHT))	transform.rotation += Math::DegToRad(100) * time.GetDeltaTime();
-
-		Vector2 velocity = Vector2{ thrust, 0.0f }.Rotate(transform.rotation);
-		transform.position += velocity * time.GetDeltaTime();
-		transform.position.x = Math::Wrap(transform.position.x, (float)renderer.GetWidth());
-		transform.position.y = Math::Wrap(transform.position.y, (float)renderer.GetHeight());
 
 		//transform.rotation = velocity.Angle();//rotation + time.GetDeltaTime();
 
 
 		// UPDATE
-		Vector2 mousePosition = input.GetMousePos();
-		if (input.GetMouseButDown(0) && !input.GetPrevMouseButDown(0))
+		scene->Update(g_engine.GetTime().GetDeltaTime());
+		//scene->Draw();
+		Vector2 mousePosition = INPUT.GetMousePos();
+		if (INPUT.GetMouseButDown(0) && !INPUT.GetPrevMouseButDown(0))
 		{
 			for (int i = 0; i < 300; i++)
 			{
@@ -125,28 +112,28 @@ int main(int argc, char* argv[])
 
 		for (Particle& particle : particles)
 		{
-			particle.Update(time.GetDeltaTime());
+			particle.Update(g_engine.GetTime().GetDeltaTime());
 
 			if (particle.position.x > 800) particle.position.x = 0;
 			if (particle.position.x < 0) particle.position.x = 800;
 		}
 
 		// DRUM MACHINE
-		if (input.GetKeyDown(SDL_SCANCODE_E) && !input.GetPrevKeyDown(SDL_SCANCODE_E)) audio->playSound(sounds[2], 0, false, nullptr);
-		if (input.GetKeyDown(SDL_SCANCODE_R) && !input.GetPrevKeyDown(SDL_SCANCODE_R)) audio->playSound(sounds[3], 0, false, nullptr);
-		if (input.GetKeyDown(SDL_SCANCODE_T) && !input.GetPrevKeyDown(SDL_SCANCODE_T)) audio->playSound(sounds[4], 0, false, nullptr);
-		if (input.GetKeyDown(SDL_SCANCODE_Y) && !input.GetPrevKeyDown(SDL_SCANCODE_Y)) audio->playSound(sounds[5], 0, false, nullptr);
-		if (input.GetKeyDown(SDL_SCANCODE_Q) && !input.GetPrevKeyDown(SDL_SCANCODE_Q)) audio->playSound(sounds[0], 0, false, nullptr);
-		if (input.GetKeyDown(SDL_SCANCODE_W) && !input.GetPrevKeyDown(SDL_SCANCODE_W)) audio->playSound(sounds[1], 0, false, nullptr);
+		if (INPUT.GetKeyDown(SDL_SCANCODE_E) && !INPUT.GetPrevKeyDown(SDL_SCANCODE_E)) AUDIO.PlaySound("bass.wav");
+		if (INPUT.GetKeyDown(SDL_SCANCODE_R) && !INPUT.GetPrevKeyDown(SDL_SCANCODE_R)) AUDIO.PlaySound("snare.wav");
+		if (INPUT.GetKeyDown(SDL_SCANCODE_T) && !INPUT.GetPrevKeyDown(SDL_SCANCODE_T)) AUDIO.PlaySound("close-hat.wav");
+		if (INPUT.GetKeyDown(SDL_SCANCODE_Y) && !INPUT.GetPrevKeyDown(SDL_SCANCODE_Y)) AUDIO.PlaySound("open-hat.wav");
+		if (INPUT.GetKeyDown(SDL_SCANCODE_Q) && !INPUT.GetPrevKeyDown(SDL_SCANCODE_Q)) AUDIO.PlaySound("clap.wav");
+		if (INPUT.GetKeyDown(SDL_SCANCODE_W) && !INPUT.GetPrevKeyDown(SDL_SCANCODE_W)) AUDIO.PlaySound("cowbell.wav");
 
 		// DRAW
 		// clear screen
-		renderer.SetColor(0, 0, 0, 0);
-		renderer.BeginFrame();
+		RENDERER.SetColor(0, 0, 0, 0);
+		RENDERER.BeginFrame();
 
-		renderer.SetColor(255, 255, 255, 0);
+		RENDERER.SetColor(255, 255, 255, 0);
 		float radius = 5;
-		offset += (90 * time.GetDeltaTime());
+		offset += (90 * g_engine.GetTime().GetDeltaTime());
 		for (float angle = 0; angle < 360; angle += 360 / 60)
 		{
 			float x = Math::Cos(Math::DegToRad(angle + offset)) * Math::Sin((offset + angle) * 0.1f) * (radius + angle * 0.2f);
@@ -154,24 +141,25 @@ int main(int argc, char* argv[])
 			//float x = Math::Cos(Math::DegToRad(angle + offset)) * (radius + angle);
 			//float y = Math::Sin(Math::DegToRad(angle + offset)) * (radius + angle);
 
-			renderer.SetColor(random(256), random(20), random(25), 0);
+			RENDERER.SetColor(random(256), random(20), random(25), 0);
 			//renderer.DrawRect(400 + x, 300 + y, 10.0f, 10.0f);
 		}
 
 		// draw particles
-		renderer.SetColor(255, 20, 25, 0);
+		RENDERER.SetColor(255, 20, 25, 0);
 		for (Particle particle : particles)
 		{
-			particle.Draw(renderer);
+			particle.Draw(g_engine.GetRenderer());
 		}
 
-		renderer.SetColor(255, 20, 25, 0);
-		model.Draw(renderer, transform);
+		RENDERER.SetColor(255, 20, 25, 0);
+		scene->Draw(g_engine.GetRenderer());
 
 
 		// show screen
-		renderer.EndFrame();
+		RENDERER.EndFrame();
 	}
 
 	return 0;
 }
+*/

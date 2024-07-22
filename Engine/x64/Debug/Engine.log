@@ -1,3 +1,7 @@
-﻿  Model.cpp
-fmod_vc.lib(fmod.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in sdl2.lib(SDL2.dll); second definition ignored
+﻿  Actor.cpp
+  Engine.cpp
+  Model.cpp
+  Scene.cpp
+  Text.cpp
+  Generating Code...
   Engine.vcxproj -> C:\NU\C++2\Engine\ProjectSetup\x64\Debug\Engine.lib

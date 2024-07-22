@@ -23,8 +23,6 @@ void Input::ShutDown()
 
 void Input::Update()
 {
-    SDL_Event event;
-    SDL_PollEvent(&event);
 
     //key input
     m_prevKeyState = m_keyState;

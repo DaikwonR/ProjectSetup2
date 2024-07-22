@@ -1,9 +1,12 @@
 c:\nu\c++2\engine\projectsetup\game\x64\debug\vc143.pdb
 c:\nu\c++2\engine\projectsetup\game\x64\debug\vc143.idb
+c:\nu\c++2\engine\projectsetup\game\x64\debug\player.obj
 c:\nu\c++2\engine\projectsetup\game\x64\debug\main.obj
-c:\nu\c++2\engine\projectsetup\x64\debug\game.exe
-c:\nu\c++2\engine\projectsetup\x64\debug\game.pdb
+c:\nu\c++2\engine\projectsetup\game\x64\debug\enemy.obj
+c:\nu\c++2\engine\projectsetup\game\x64\debug\bullet.obj
 c:\nu\c++2\engine\projectsetup\game\x64\debug\game.ilk
+c:\nu\c++2\engine\projectsetup\x64\debug\game.pdb
+c:\nu\c++2\engine\projectsetup\x64\debug\game.exe
 c:\nu\c++2\engine\projectsetup\game\x64\debug\game.tlog\cl.command.1.tlog
 c:\nu\c++2\engine\projectsetup\game\x64\debug\game.tlog\cl.items.tlog
 c:\nu\c++2\engine\projectsetup\game\x64\debug\game.tlog\cl.read.1.tlog
