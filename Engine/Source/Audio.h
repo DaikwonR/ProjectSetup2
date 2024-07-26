@@ -18,6 +18,7 @@ public:
 
 	bool AddSound(const string& name);
 	bool PlaySound(const string& name);
+	bool StopSound(const string& name);
 
 private:
 	FMOD::System* m_audio{nullptr};

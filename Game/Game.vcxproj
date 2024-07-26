@@ -25,7 +25,9 @@
     <ClCompile Include="Source\Main.cpp" />
     <ClCompile Include="Source\Pickup.cpp" />
     <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\Roadblock.cpp" />
     <ClCompile Include="Source\SpaceGame.cpp" />
+    <ClCompile Include="Source\SuperPickup.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.vcxproj">
@@ -38,7 +40,9 @@
     <ClInclude Include="Source\GameData.h" />
     <ClInclude Include="Source\Pickup.h" />
     <ClInclude Include="Source\Player.h" />
+    <ClInclude Include="Source\Roadblock.h" />
     <ClInclude Include="Source\SpaceGame.h" />
+    <ClInclude Include="Source\SuperPickup.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

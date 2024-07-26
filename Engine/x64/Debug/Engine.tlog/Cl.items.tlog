@@ -7,6 +7,7 @@ C:\NU\C++2\Engine\ProjectSetup\Engine\Source\Header.cpp;C:\NU\C++2\Engine\Projec
 C:\NU\C++2\Engine\ProjectSetup\Engine\Source\Input.cpp;C:\NU\C++2\Engine\ProjectSetup\Engine\x64\Debug\Input.obj
 C:\NU\C++2\Engine\ProjectSetup\Engine\Source\Model.cpp;C:\NU\C++2\Engine\ProjectSetup\Engine\x64\Debug\Model.obj
 C:\NU\C++2\Engine\ProjectSetup\Engine\Source\Particle.cpp;C:\NU\C++2\Engine\ProjectSetup\Engine\x64\Debug\Particle.obj
+C:\NU\C++2\Engine\ProjectSetup\Engine\Source\ParticleSystem.cpp;C:\NU\C++2\Engine\ProjectSetup\Engine\x64\Debug\ParticleSystem.obj
 C:\NU\C++2\Engine\ProjectSetup\Engine\Source\Renderer.cpp;C:\NU\C++2\Engine\ProjectSetup\Engine\x64\Debug\Renderer.obj
 C:\NU\C++2\Engine\ProjectSetup\Engine\Source\Scene.cpp;C:\NU\C++2\Engine\ProjectSetup\Engine\x64\Debug\Scene.obj
 C:\NU\C++2\Engine\ProjectSetup\Engine\Source\Text.cpp;C:\NU\C++2\Engine\ProjectSetup\Engine\x64\Debug\Text.obj

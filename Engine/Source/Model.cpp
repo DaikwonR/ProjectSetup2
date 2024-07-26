@@ -19,7 +19,7 @@ void Model::Draw(Renderer& renderer, const Transform& transform)
 	if (m_points.empty()) return;
 
 	renderer.SetColor(Color::ToInt(m_color.r), Color::ToInt(m_color.g), Color::ToInt(m_color.b), Color::ToInt(m_color.a));
-	renderer.SetColor(255, 255, 255, 0);
+	renderer.SetColor(255, 0, 0, 0);
 	for (int i = 0; i < m_points.size() - 1; i++)
 	{
 		Vector2 p1 = m_points[i].Rotate(transform.rotation) * transform.scale + transform.position;

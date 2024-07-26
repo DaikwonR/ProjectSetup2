@@ -4,13 +4,17 @@
 #include "Scene.h"
 #include "GameData.h"
 #include "SpaceGame.h"
+#include "Audio.h"
 
+#include <fmod.h>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 void Player::Update(float dt)
 {
+
 	// movement
 	Vector2 direction{ 0, 0 };
 	if (INPUT.GetKeyDown(SDL_SCANCODE_W))		direction.x = 1;
@@ -28,6 +32,12 @@ void Player::Update(float dt)
 	m_transform.position.x = Math::Wrap(m_transform.position.x, (float)RENDERER.GetWidth());
 	m_transform.position.y = Math::Wrap(m_transform.position.y, (float)RENDERER.GetHeight());
 
+	// create audio system
+
+	std::vector<FMOD::Sound*> sounds;
+
+	AUDIO.AddSound("skadoosh.wav");
+	
 
 	// fire
 	m_firetimer -= dt;
@@ -39,17 +49,43 @@ void Player::Update(float dt)
 		Vector2 direction = g_engine.GetInput().GetMousePos() - m_transform.position;
 		float angle = direction.Angle();
 
+		std::vector<Vector2> points;
+
+		// actor
+		Model* model = new Model{ GameData::bulletPoints, Color{ 1, 1, 1 } };
+		Transform transform{ m_transform.position, angle, 1.0f };
+
+		auto bullet = std::make_unique<Bullet>(400.0f, transform, model);
+		bullet->SetLifeSpan(1);
+		bullet->SetTag("PlayerBullet");
+		m_scene->AddActor(std::move(bullet));
+		
+
+		AUDIO.PlaySound("skadoosh.wav");
+		
+	}
+	if (INPUT.GetMouseButDown(2) && m_firetimer <= 0) // && !INPUT.GetKeyDown(SDL_SCANCODE_SPACE))
+	{
+		m_firetimer = 0.02f * m_fireModifier;
+
+		// shoot at mouse position
+		Vector2 direction = g_engine.GetInput().GetMousePos() - m_transform.position;
+		float angle = direction.Angle();
 
 		std::vector<Vector2> points;
 
 		// actor
-		Model* model = new Model{ GameData::shipPoints, Color{ 1, 1, 1 } };
+		Model* model = new Model{ GameData::superDuperPoints, Color{ 0, 1, 0 } };
 		Transform transform{ m_transform.position, angle, 1.0f };
 
-		Bullet* bullet = new Bullet(400.0f, transform, model);
+		auto bullet = std::make_unique<Bullet>(4000.0f, transform, model);
 		bullet->SetLifeSpan(1);
 		bullet->SetTag("PlayerBullet");
-		m_scene->AddActor(bullet);
+		m_scene->AddActor(std::move(bullet));
+
+
+		AUDIO.PlaySound("skadoosh.wav");
+
 	}
 
 	Actor::Update(dt);
@@ -62,4 +98,15 @@ void Player::OnCollision(Actor* actor)
 		m_destroyed = true;
 		dynamic_cast<SpaceGame*>(m_scene->GetGame())->OnPlayerDeath();
 	}
+
+
 }
+
+//void Player::SetSuperModifier(Actor* actor)
+//{
+//	if (actor->GetTag() == "Roadblock")
+//	{
+//		m_destroyed = true;
+//		dynamic_cast<SpaceGame*>(m_scene->GetGame())->OnPlayerLastLife();
+//	}
+//}

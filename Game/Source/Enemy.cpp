@@ -24,3 +24,5 @@ void Enemy::OnCollision(Actor* actor)
 		m_destroyed = true;
 	}
 }
+
+

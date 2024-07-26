@@ -1,6 +1,7 @@
 #pragma once
 #include "Transform.h"
 #include "Scene.h"
+#include "Audio.h"
 #include "Model.h"
 
 #include <string>
@@ -27,7 +28,7 @@ public:
 	void SetDamping(float damping) { m_damping = damping; }
 	void SetLifeSpan(float lifespan) { m_lifespan = lifespan; }
 
-	const Transform& GetTransform() { return m_transform; }
+	Transform& GetTransform() { return m_transform; }
 
 	void SetTag(const string& tag) { m_tag = tag; }
 	const string GetTag() { return m_tag; }
@@ -36,7 +37,7 @@ public:
 	float GetRadius() { return (m_model) ? m_model->GetRadius() * m_transform.scale : 0; }
 
 	friend class Scene;
-
+	// friend class Audio;
 protected:
 	string m_tag;
 	bool m_destroyed = false;
@@ -48,4 +49,5 @@ protected:
 
 	Model* m_model{ nullptr };
 	Scene* m_scene{ nullptr };
+	// Audio* m_audio{ nullptr };
 };

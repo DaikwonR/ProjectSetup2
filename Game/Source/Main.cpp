@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
 	font->Load("youmurdererbb_reg.ttf", 20);
 
 	Text* text = new Text(font);
-	text->Create(g_engine.GetRenderer(), "Hello World", Color{ 1, 1, 1, 1 });
+	// text->Create(g_engine.GetRenderer(), "Hello World", Color{ 1, 1, 1, 1 });
 
 	while (!g_engine.IsQuit())
 	{
@@ -39,6 +39,7 @@ int main(int argc, char* argv[])
 		g_engine.GetRenderer().BeginFrame();
 
 		game->Draw(g_engine.GetRenderer());
+		g_engine.GetPS().Draw(g_engine.GetRenderer());
 		text->Draw(g_engine.GetRenderer(), 40, 40);
 
 		g_engine.GetRenderer().EndFrame();
@@ -46,6 +47,7 @@ int main(int argc, char* argv[])
 		
 	}
 
+	g_engine.ShutDown();
 	return 0;
 }
 /*

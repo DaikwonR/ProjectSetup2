@@ -1,7 +1,2 @@
-﻿  Actor.cpp
-  Engine.cpp
-  Model.cpp
-  Scene.cpp
-  Text.cpp
-  Generating Code...
+﻿  Scene.cpp
   Engine.vcxproj -> C:\NU\C++2\Engine\ProjectSetup\x64\Debug\Engine.lib

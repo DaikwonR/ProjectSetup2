@@ -49,3 +49,11 @@ bool Audio::PlaySound(const string& name)
 
 	m_audio->playSound(m_sounds[name], 0, false, nullptr);
 }
+
+//bool Audio::StopSound(const string& name)
+//{
+//	// check if sound exists, if not add sound
+//	if (m_sounds.find(name) == m_sounds.end()) { if (!AddSound(name)); return false; }
+//
+//	FMOD::ChannelControl().stop();
+//}

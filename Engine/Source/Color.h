@@ -11,11 +11,14 @@ struct Color
 	float a;
 	
 	Color() = default;
+	Color(int r, int g, int b, int a = 0)
+	{
+		this->r = (float)r; this->g = (float)g; this->b = (float)b; this->a = (float)a;
+	}
 	Color(float r, float g, float b, float a = 0)
 	{
 		this->r = r; this->g = g; this->b = b; this->a = a;
 	}
-
 	float  operator [] (unsigned int index) const { return (&r)[index]; }
 	float& operator [] (unsigned int index) { return (&r)[index]; }
 	

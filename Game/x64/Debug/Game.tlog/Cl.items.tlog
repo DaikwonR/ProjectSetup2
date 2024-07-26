@@ -4,4 +4,6 @@ C:\NU\C++2\Engine\ProjectSetup\Game\Source\GameData.cpp;C:\NU\C++2\Engine\Projec
 C:\NU\C++2\Engine\ProjectSetup\Game\Source\Main.cpp;C:\NU\C++2\Engine\ProjectSetup\Game\x64\Debug\Main.obj
 C:\NU\C++2\Engine\ProjectSetup\Game\Source\Pickup.cpp;C:\NU\C++2\Engine\ProjectSetup\Game\x64\Debug\Pickup.obj
 C:\NU\C++2\Engine\ProjectSetup\Game\Source\Player.cpp;C:\NU\C++2\Engine\ProjectSetup\Game\x64\Debug\Player.obj
+C:\NU\C++2\Engine\ProjectSetup\Game\Source\Roadblock.cpp;C:\NU\C++2\Engine\ProjectSetup\Game\x64\Debug\Roadblock.obj
 C:\NU\C++2\Engine\ProjectSetup\Game\Source\SpaceGame.cpp;C:\NU\C++2\Engine\ProjectSetup\Game\x64\Debug\SpaceGame.obj
+C:\NU\C++2\Engine\ProjectSetup\Game\Source\SuperPickup.cpp;C:\NU\C++2\Engine\ProjectSetup\Game\x64\Debug\SuperPickup.obj

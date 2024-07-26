@@ -3,59 +3,48 @@
   "WorkspaceRootPath": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\SpaceGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\ENTERPRISE\\VC\\TOOLS\\MSVC\\14.40.33807\\INCLUDE\\ARRAY||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\SpaceGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Audio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Audio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\ENGINE\\PROJECTSETUP\\ENGINE\\SOURCE\\AUDIO.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:ENGINE\\SOURCE\\AUDIO.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Font.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Font.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Roadblock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Roadblock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Pickup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\GameData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\GameData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\GameData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\GameData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\SpaceGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -66,36 +55,16 @@
       "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\SpaceGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Roadblock.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Roadblock.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Font.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Font.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{730A3FD5-EE1C-47C3-BEAA-FEB54B55510C}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36E3DA00-5149-46C2-9075-F17BCE26D4E8}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -105,319 +74,215 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Main.cpp",
               "RelativeDocumentMoniker": "Game\\Source\\Main.cpp",
               "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Main.cpp",
               "RelativeToolTip": "Game\\Source\\Main.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T14:43:45.061Z",
+              "WhenOpened": "2024-07-25T16:44:55.96Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Input.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Input.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Input.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Input.h",
-              "RelativeToolTip": "Engine\\Source\\Input.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAD4vxYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T18:03:35.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Color.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Color.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Color.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Color.h",
-              "RelativeToolTip": "Engine\\Source\\Color.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAABlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T18:01:44.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "array",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.40.33807\\include\\array",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.40.33807\\include\\array",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.40.33807\\include\\array",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.40.33807\\include\\array",
-              "ViewState": "AQIAAP8BAAAAAAAAAAD4vxICAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-22T16:32:24.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.h",
-              "RelativeDocumentMoniker": "Game\\Source\\Enemy.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.h",
-              "RelativeToolTip": "Game\\Source\\Enemy.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T16:12:02.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Pickup.cpp",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.cpp",
-              "RelativeDocumentMoniker": "Game\\Source\\Pickup.cpp",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.cpp",
-              "RelativeToolTip": "Game\\Source\\Pickup.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T16:11:41.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Pickup.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.h",
-              "RelativeDocumentMoniker": "Game\\Source\\Pickup.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.h",
-              "RelativeToolTip": "Game\\Source\\Pickup.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T16:10:38.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.cpp",
-              "RelativeDocumentMoniker": "Game\\Source\\Player.cpp",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.cpp",
-              "RelativeToolTip": "Game\\Source\\Player.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T15:50:15.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.h",
-              "RelativeDocumentMoniker": "Game\\Source\\Player.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.h",
-              "RelativeToolTip": "Game\\Source\\Player.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T16:14:23.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.cpp",
-              "RelativeDocumentMoniker": "Game\\Source\\Enemy.cpp",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.cpp",
-              "RelativeToolTip": "Game\\Source\\Enemy.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T15:31:05.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Game.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Game.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Game.h",
-              "RelativeToolTip": "Engine\\Source\\Game.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T15:09:38.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SpaceGame.cpp",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.cpp",
-              "RelativeDocumentMoniker": "Game\\Source\\SpaceGame.cpp",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.cpp",
-              "RelativeToolTip": "Game\\Source\\SpaceGame.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T15:08:31.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SpaceGame.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.h",
-              "RelativeDocumentMoniker": "Game\\Source\\SpaceGame.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.h",
-              "RelativeToolTip": "Game\\Source\\SpaceGame.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T15:11:47.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
               "Title": "Scene.cpp",
               "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Scene.cpp",
               "RelativeDocumentMoniker": "Engine\\Source\\Scene.cpp",
               "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Scene.cpp",
               "RelativeToolTip": "Engine\\Source\\Scene.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T15:03:04.457Z",
+              "WhenOpened": "2024-07-26T01:09:46.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Scene.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Scene.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Scene.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Scene.h",
-              "RelativeToolTip": "Engine\\Source\\Scene.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T15:07:10.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Actor.cpp",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Actor.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Actor.cpp",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Actor.cpp",
-              "RelativeToolTip": "Engine\\Source\\Actor.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Audio.cpp",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Audio.cpp",
+              "RelativeDocumentMoniker": "Engine\\Source\\Audio.cpp",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Audio.cpp",
+              "RelativeToolTip": "Engine\\Source\\Audio.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADoAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T15:03:34.353Z",
+              "WhenOpened": "2024-07-25T23:30:33.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Actor.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Actor.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Actor.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Actor.h",
-              "RelativeToolTip": "Engine\\Source\\Actor.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Audio.h",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Audio.h",
+              "RelativeDocumentMoniker": "Engine\\Source\\Audio.h",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Audio.h",
+              "RelativeToolTip": "Engine\\Source\\Audio.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T15:03:42.955Z",
+              "WhenOpened": "2024-07-25T23:29:58.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Model.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Model.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Model.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Model.h",
-              "RelativeToolTip": "Engine\\Source\\Model.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T14:51:36.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Text.cpp",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Text.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Text.cpp",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Text.cpp",
-              "RelativeToolTip": "Engine\\Source\\Text.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "DocumentIndex": 4,
+              "Title": "Roadblock.cpp",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Roadblock.cpp",
+              "RelativeDocumentMoniker": "Game\\Source\\Roadblock.cpp",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Roadblock.cpp",
+              "RelativeToolTip": "Game\\Source\\Roadblock.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T14:40:49.337Z",
+              "WhenOpened": "2024-07-25T17:23:29.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Roadblock.h",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Roadblock.h",
+              "RelativeDocumentMoniker": "Game\\Source\\Roadblock.h",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Roadblock.h",
+              "RelativeToolTip": "Game\\Source\\Roadblock.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-25T17:21:06.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Game\\Source\\Enemy.cpp",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.cpp",
+              "RelativeToolTip": "Game\\Source\\Enemy.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-25T17:17:36.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.h",
+              "RelativeDocumentMoniker": "Game\\Source\\Enemy.h",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Enemy.h",
+              "RelativeToolTip": "Game\\Source\\Enemy.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-25T17:17:27.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpaceGame.cpp",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.cpp",
+              "RelativeDocumentMoniker": "Game\\Source\\SpaceGame.cpp",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.cpp",
+              "RelativeToolTip": "Game\\Source\\SpaceGame.cpp",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAAMIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-25T16:51:57.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Text.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Text.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Text.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Text.h",
-              "RelativeToolTip": "Engine\\Source\\Text.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Title": "SpaceGame.h",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.h",
+              "RelativeDocumentMoniker": "Game\\Source\\SpaceGame.h",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\SpaceGame.h",
+              "RelativeToolTip": "Game\\Source\\SpaceGame.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T14:39:45.558Z",
+              "WhenOpened": "2024-07-25T16:51:47.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Font.cpp",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Font.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Font.cpp",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Font.cpp",
-              "RelativeToolTip": "Engine\\Source\\Font.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.cpp",
+              "RelativeDocumentMoniker": "Game\\Source\\Player.cpp",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.cpp",
+              "RelativeToolTip": "Game\\Source\\Player.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAkwEkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T14:38:57.177Z",
+              "WhenOpened": "2024-07-25T16:53:35.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Font.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Font.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Font.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Font.h",
-              "RelativeToolTip": "Engine\\Source\\Font.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Pickup.cpp",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.cpp",
+              "RelativeDocumentMoniker": "Game\\Source\\Pickup.cpp",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.cpp",
+              "RelativeToolTip": "Game\\Source\\Pickup.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-25T16:48:27.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pickup.h",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.h",
+              "RelativeDocumentMoniker": "Game\\Source\\Pickup.h",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Pickup.h",
+              "RelativeToolTip": "Game\\Source\\Pickup.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T14:37:02.634Z",
+              "WhenOpened": "2024-07-25T16:49:18.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.h",
+              "RelativeDocumentMoniker": "Game\\Source\\Player.h",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\Player.h",
+              "RelativeToolTip": "Game\\Source\\Player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-25T23:05:52.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Renderer.cpp",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Renderer.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Renderer.cpp",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Renderer.cpp",
-              "RelativeToolTip": "Engine\\Source\\Renderer.cpp",
-              "ViewState": "AQIAACsAAAAAAAAAAAAUwEMAAAAAAAAA",
+              "Title": "GameData.cpp",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\GameData.cpp",
+              "RelativeDocumentMoniker": "Game\\Source\\GameData.cpp",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\GameData.cpp",
+              "RelativeToolTip": "Game\\Source\\GameData.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T14:34:28.832Z",
+              "WhenOpened": "2024-07-25T16:47:10.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Renderer.h",
-              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Renderer.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Renderer.h",
-              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Engine\\Source\\Renderer.h",
-              "RelativeToolTip": "Engine\\Source\\Renderer.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAWAAAA",
+              "DocumentIndex": 9,
+              "Title": "GameData.h",
+              "DocumentMoniker": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\GameData.h",
+              "RelativeDocumentMoniker": "Game\\Source\\GameData.h",
+              "ToolTip": "C:\\NU\\C\u002B\u002B2\\Engine\\ProjectSetup\\Game\\Source\\GameData.h",
+              "RelativeToolTip": "Game\\Source\\GameData.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T14:33:44.692Z",
+              "WhenOpened": "2024-07-25T16:46:01.986Z",
               "EditorCaption": ""
             }
           ]
